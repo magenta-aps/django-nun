@@ -1,3 +1,12 @@
-# from django.db import models
+from django.db import models
+from simple_history.models import HistoricalRecords
 
-# Create your models here.
+class NurseRegistration(models.Model):
+    name = models.CharField(max_length=2048)
+
+    history = HistoricalRecords()
+
+class MyNewModel(models.Model):
+    name = models.CharField(max_length=2048)
+
+    history = HistoricalRecords()

@@ -1,3 +1,4 @@
-# from django.contrib import admin
+from django.contrib import admin
+from nurseregister import models
 
-# Register your models here.
+admin.site.register(models.NurseRegistration)
