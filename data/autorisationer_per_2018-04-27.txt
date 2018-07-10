@@ -1,0 +1,70 @@
+# This file is created by copy/pasting from the PDF file linked at http://nun.gl
+Aut. Status Aut. Dato Aut. Nr. Navn Fødselsdato
+Gyldig 02-01-2018 2018-105 Charlotte Bøttcher Preisler 28-07-1961
+Gyldig 02-01-2018 2018-62 Ann-Sofie Engelbertink Villiam 06-07-1988
+Gyldig 03-01-2018 2018-280 Pia Børding 06-05-1973
+Gyldig 03-01-2018 2018-344 Tina Birk Bannis 01-12-1962
+Gyldig 03-01-2018 2018-357 Ann-Stina Engelhardt 01-04-1966
+Gyldig 04-01-2018 2018-470 Mette Egelund Andreasson 27-05-1986
+Gyldig 08-01-2018 2018-783 Karin Dorthe Grauballe 27-04-1963
+Gyldig 08-01-2018 2018-784 Cecilie Mathorne 14-01-1986
+Gyldig 09-01-2018 2018-8330 Petra Luna Fuglø 01-04-1982
+Gyldig 11-01-2018 2018-1213 Annette Bjerg Larsen 11-10-1967
+Gyldig 11-01-2018 2018-1222 Katrine Lykkebæk 26-06-1988
+Gyldig 11-01-2018 2018-1305 Krestine Vinther-Nielsen 02-04-1986
+Gyldig 11-01-2018 2018-1332 Louise Sture Andersen 07-07-1986
+Gyldig 22-01-2018 2018-2104 Anders Thor Jørgensen 05-04-1987
+Gyldig 22-01-2018 2018-2114 Ellen Nyholm Larsen 21-04-1965
+Gyldig 22-01-2018 2018-2119 Charlotte Bak Hansen 02-04-1968
+Gyldig 22-01-2018 2018-2121 Birgitte Prinds Krog 11-04-1967
+Gyldig 22-01-2018 2018-2122 Camilla Sievert Andersen 13-09-1989
+Gyldig 23-01-2018 2018-2244 Anita Lindkvist Berg 20-03-1956
+Gyldig 23-01-2018 2018-2247 Marianne Holst Møllebro 12-09-1970
+Gyldig 24-01-2018 2018-2371 Betina Lisbeth Svalø 24-09-1988
+Gyldig 24-01-2018 2018-2440 Sabrina Lassen 16-12-1983
+Gyldig 24-01-2018 2018-2463 Bente Hougaard 10-12-1961
+Gyldig 25-01-2018 2018-2517 Susanne Henningsen Bertelsen 15-06-1966
+Gyldig 25-01-2018 2018-2520 Puk Lizzi Wideborg 25-10-1967
+Gyldig 25-01-2018 2018-2523 Lise Larsen 11-02-1990
+Gyldig 25-01-2018 2018-2530 Charlotte Johannesson Olsen 14-03-1987
+Gyldig 29-01-2018 2018-2747 Tina Østergaard Madsen 30-03-1973
+Gyldig 29-01-2018 2018-2775 Inger Cordua 01-07-1957
+Gyldig 29-01-2018 2018-2780 Ulla-Britt Charlotta Åkerström 21-01-1919
+Gyldig 02-02-2018 2018-3243 Helene Ravnholm Jensen 19-04-1983
+Gyldig 05-02-2018 2018-3457 Lene Søgaard Paulsen 17-01-1966
+Gyldig 05-02-2018 2018-3459 Dorte Nykjær Madsen 02-06-1957
+Gyldig 05-02-2018 2018-3463 Anette Bülow Row 25-02-1961
+Gyldig 06-02-2018 2018-3596 Inge Lis Lund 29-04-1970
+Gyldig 06-02-2018 2018-3598 Lene Lerche-Thomsen 22-04-1958
+Gyldig 09-02-2018 2018-3950 Lene Hedweg 10-04-1970
+Gyldig 09-02-2018 2018-3955 Malene Hjort Kristiansen 31-01-1994
+Gyldig 15-02-2018 2018-4426 Marianne Sølvbjerg Petersen 24-01-1962
+Gyldig 15-02-2018 2018-4427 Lotte Bahn Frederiksen 26-04-1988
+Gyldig 15-02-2018 2018-4436 Katrin Hammerich Lacart 18-11-1965
+Gyldig 21-02-2018 2018-5026 Lea Blytner 01-02-1963
+Gyldig 21-02-2018 2018-5027 Lene Uhrenholt 30-01-1960
+Gyldig 21-02-2018 2018-5033 Anna Marie Friis Pedersen 22-12-1986
+Gyldig 27-02-2018 2018-5448 Githa Bethina Westen Michaelsen 14-06-1969
+Gyldig 01-03-2018 2018-5660 Camilla Maria Hedensted 08-12-1974
+Gyldig 01-03-2018 2018-5664 Marianne Hauge Bæk 25-07-1957
+Gyldig 05-03-2018 2018-5910 Anne Katrine Karlsen 09-04-1957
+Gyldig 06-03-2018 2018-6014 Lene Færk 07-05-1965
+Gyldig 07-03-2018 2018-6115 Hanne Margrethe Jørgensen 02-11-1956
+Gyldig 07-03-2018 2018-6123 Maria Kristina Andersen 24-10-1991
+Gyldig 07-03-2018 2018-6125 Gudrid Sofia Dahl Bogadóttir 09-02-1988
+Gyldig 09-03-2018 2018-6379 Elsemarie Fløistrup Thorsen 09-03-1983
+Gyldig 14-03-2018 2018-6722 Karin Hvidtfeldt Hansen 16-06-1960
+Gyldig 19-03-2018 2018-7112 Birgitte Bech Andersen 28-12-1959
+Gyldig 23-03-2018 2018-7441 Lise-Lotte Poulsen 19-08-1970
+Gyldig 05-04-2018 2018-8042 Susanne Sander Aagaard 25-02-1968
+Gyldig 05-04-2018 2018-8051 Anette Solveig Stegemeier Fredensborg 09-10-1978
+Gyldig 05-04-2018 2018-8060 Anne Christensen 10-07-1984
+Gyldig 05-04-2018 2018-8078 Dorte Mylliin Danielsen 02-11-1968
+Gyldig 05-04-2018 2018-8083 Ninna Helene Nygaard 01-03-1994
+Gyldig 09-04-2018 2018-8323 Bente Pouelsen 03-12-1960
+Gyldig 09-04-2018 2018-8325 Marie Emilie Damgaard 02-10-1966
+Gyldig 11-04-2018 2018-8507 Marita Arga Markná 28-05-1959
+Gyldig 13-04-2018 2018-8688 Myrna Kongstad 29-04-1950
+Gyldig 18-04-2018 2018-9110 Marianne Aagaard Haahr 09-07-1967
+Gyldig 18-04-2018 2018-9126 Lotte Bach Hansen 04-04-1978
+Gyldig 18-04-2018 2018-9127 André Alcega Hartmann 10-08-1986
