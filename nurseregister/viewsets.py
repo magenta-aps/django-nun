@@ -1,9 +1,9 @@
 from rest_framework import routers
 from rest_framework import viewsets
-from nurseregister.models import NurseRegistration
 from nurseregister.serializers import create_model_serializer_class
 
 import sys
+
 
 def create_readonly_model_viewset(namespace, reverse_name, model):
     class_name = model.__name__ + "ViewSet"
@@ -31,6 +31,7 @@ def create_readonly_model_viewset(namespace, reverse_name, model):
 
     return cls
 
+
 def model_to_url_name(model):
     return model.__name__.lower()
 
@@ -41,5 +42,5 @@ def create_router(namespace, model_list):
         reverse_name = model_to_url_name(model)
         viewset = create_readonly_model_viewset(namespace, reverse_name, model)
         router.register(reverse_name, viewset)
-    
+
     return router

@@ -1,7 +1,7 @@
-from nurseregister import models
 from rest_framework import serializers
 
 import sys
+
 
 def create_model_serializer_class(namespace, reverse_name, model):
     # Class name is name of model postfixed with "Serializer"
@@ -33,9 +33,10 @@ def create_model_serializer_class(namespace, reverse_name, model):
 
     return cls
 
+
 def create_model_serializer_meta_class(model):
     return type(
-        "Meta", # class name
-        tuple(), # Base classes
-        {"model": model, "fields": "__all__"} # members
+        "Meta",  # class name
+        tuple(),  # Base classes
+        {"model": model, "fields": "__all__"}  # members
     )
