@@ -1,4 +1,7 @@
 Django==1.11
 django-simple-history==2.2.0
 flake8==3.5.0
+djangorestframework==3.8.2
+markdown==2.6.11
+django-filter==2.0.0
 
