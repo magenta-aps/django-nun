@@ -136,4 +136,4 @@ REST_FRAMEWORK = {
 
 LOCAL_SETTINGS_FILE = os.path.join(SITE_DIR, "local_settings.py")
 if os.path.exists(LOCAL_SETTINGS_FILE):
-    from local_settings import *  # noqa
+    from .local_settings import *  # noqa

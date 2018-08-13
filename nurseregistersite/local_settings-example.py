@@ -1,4 +1,4 @@
-!# Use this file to override settings from the settings.py file
+# Use this file to override settings from the settings.py file
 
 # Set up a local secret_key to protect user passwords and sessions
 # Can be generated with:
