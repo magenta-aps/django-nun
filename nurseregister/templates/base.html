@@ -1,0 +1,61 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+      
+
+    <title>{%block htmltitle %}NUN{% endblock%}</title>
+
+    <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap-tweaks.css"/>
+        
+
+    <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/prettify.css"/>
+    <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/default.css"/>
+  </head>
+
+  <body class="">
+    <div class="wrapper">
+        <div class="navbar navbar-static-top navbar-inverse"
+             role="navigation" aria-label="navbar">
+          <div class="container">
+            <span>
+              {% block navbar_content%}
+              <a class="navbar-brand" rel="nofollow" href="/">NUN</a>
+              {% endblock %}
+            </span>
+            <ul class="nav navbar-nav pull-right">
+              {% block navbar_right_content%}{% endblock %}
+            </ul>
+          </div>
+        </div>
+      
+
+      <div class="container">
+          <ul class="breadcrumb">
+            {% block breadcrumbs %}{% endblock %}
+          </ul>
+        
+
+        <!-- Content -->
+        <div id="content" role="main" aria-label="content">
+          {% block content%}
+          {% endblock %}
+        </div><!-- /.content -->
+      </div><!-- /.container -->
+    </div><!-- ./wrapper -->
+
+    
+
+    
+    <script src="/static/rest_framework/js/jquery-3.3.1.min.js"></script>
+    <script src="/static/rest_framework/js/ajax-form.js"></script>
+    <script src="/static/rest_framework/js/csrf.js"></script>
+    <script src="/static/rest_framework/js/bootstrap.min.js"></script>
+    <script src="/static/rest_framework/js/prettify-min.js"></script>
+    <script src="/static/rest_framework/js/default.js"></script>
+    {%block extra_scripts%}{%endblock%}
+  </body>
+  
+</html>

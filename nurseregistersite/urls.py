@@ -20,11 +20,13 @@ from django.contrib import admin
 
 from nurseregister import models
 from nurseregister import viewsets
+from nurseregister import views as site_views
 
 model_router = rest_tools.autogenerate_router(viewsets)
 rest_namespace = rest_tools.get_namespace_from_module(models)
 
 urlpatterns = [
+    url(r'^$', site_views.IndexView.as_view(), name="index"),
     url(r'^admin/', admin.site.urls),
     url(r'^rest/', include(model_router.urls, namespace=rest_namespace))
 ]
