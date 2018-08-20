@@ -14,6 +14,16 @@ class NurseRegistration(models.Model):
         verbose_name = _(u"sygeplejerskeautorisation")
         verbose_name_plural = _(u"sygeplejerskeautorisationer")
 
+    search_fields = ('birthday', 'date', 'name', 'number')
+    filter_fields = {
+        'name': ['icontains'],
+        'number': ['icontains'],
+        'birthday': ['gt', 'lt'],
+        'state': ['exact'],
+        'date': ['gt', 'lt']
+    }
+
+
     name = models.CharField(
         verbose_name=_(u"Navn"),
         max_length=2048,

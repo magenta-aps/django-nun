@@ -103,6 +103,16 @@ def create_readonly_model_viewset(viewsets_module, serializer):
     if hasattr(viewsets_module, class_name):
         return getattr(viewsets_module, class_name)
 
+    if hasattr(model, 'filter_fields'):
+        filter_fields = getattr(model, 'filter_fields')
+    else:
+        filter_fields = None
+    if hasattr(model, 'search_fields'):
+        search_fields = getattr(model, 'search_fields')
+    else:
+        search_fields = None
+    
+
     cls = type(
         # Class name
         class_name,
@@ -112,7 +122,9 @@ def create_readonly_model_viewset(viewsets_module, serializer):
         {
             "__module__": viewsets_module.__name__,
             "queryset": model.objects.all(),
-            "serializer_class": serializer
+            "serializer_class": serializer,
+            "filter_fields": filter_fields,
+            "search_fields": search_fields,
         }
     )
 

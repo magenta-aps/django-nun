@@ -40,10 +40,17 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'simple_history',
     'rest_framework',
+    'django_filters',
     'nurseregister',
-    'django_windows_tools',
     'django_extensions',
 ]
+
+# Add apps that only run under windows
+if os.name == 'nt':
+    INSTALLED_APPS += (
+        'django_windows_tools',
+    )
+    
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -134,7 +141,11 @@ REST_FRAMEWORK = {
     # or allow read-only access for unauthenticated users.
     'DEFAULT_PERMISSION_CLASSES': [
         'rest_framework.permissions.IsAuthenticatedOrReadOnly'
-    ]
+    ],
+    'DEFAULT_FILTER_BACKENDS': (
+        'rest_framework.filters.SearchFilter',
+        'django_filters.rest_framework.DjangoFilterBackend',
+    ),
 }
 
 LOCAL_SETTINGS_FILE = os.path.join(SITE_DIR, "local_settings.py")
