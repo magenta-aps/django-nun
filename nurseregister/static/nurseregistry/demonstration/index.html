@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+      
+    <title>Nurseregistry Demonstration</title>
+
+    <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap-tweaks.css"/>
+        
+    <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/prettify.css"/>
+    <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/default.css"/>
+
+    <style type="text/css">#demonstration { zoom: 150%; }</style>
+  </head>
+
+  <body class="">
+    <div class="wrapper">
+        <div class="navbar navbar-static-top navbar-inverse"
+             role="navigation" aria-label="navbar">
+          <div class="container">
+            <span>
+              <a class="navbar-brand" rel="nofollow" href="/">Home</a>
+            </span>
+            <ul class="nav navbar-nav pull-right">
+            </ul>
+          </div>
+        </div>
+      
+
+      <div class="container">
+        <ul class="breadcrumb">
+          <li><a href="/">Home</a></li>
+          <li>Demonstration</li>
+        </ul>
+
+        <!-- Content -->
+        <div id="content" role="main" aria-label="content">
+            <div id="demonstration">
+                <h1>Step 1: Create an easy-to-edit registry with history feature</h1>
+                <p>
+                    Editing of data is provided by
+                    <a href="/admin/nurseregister/nurseregistration/">Django-admin</a>.
+                    An extension ensures that all edited data is provided with a
+                    <a href="/admin/nurseregister/nurseregistration/1/history/">history</a>
+                    that provides tracing possibilities and
+                    protects against data loss.
+                </p>
+                <h1>Step 2 A: Provide UXP services with UXP connector</h1>
+                <p>
+                  UXP connector is set up to connect directly to the registry's
+                  database. Multiple services can be created by running different
+                  SQL queries against the database.
+                </p>
+                <h1>Step 2 B: Provide access through UXP REST interface integration</h1>
+                <h3>Step 2 B.1</h3>
+                <p>
+                  Provide a
+                  <a href="/rest/">REST interface</a>
+                  in the registry application.
+                </p>
+                <h3>Step 2 B.2</h3>
+                <p>
+                  Expose the REST interface (or parts of it) as UXP services using
+                  UXP security server. Multiple services can be created by exposing
+                  multiple REST URLs through the security server.
+                </p>
+                <h1>Step 3: Consume the UXP services</h1>
+                <p>
+                  Consume the exposed services in the
+                  <a href="#missinglink">target application</a>.
+                  <a href="#missinglink2">Multiple services</a>
+                  can be consumed using the same security configuration.
+                </p>
+            </div>
+        </div><!-- /.content -->
+      </div><!-- /.container -->
+    </div><!-- ./wrapper -->
+
+    <script src="/static/rest_framework/js/jquery-3.3.1.min.js"></script>
+    <script src="/static/rest_framework/js/ajax-form.js"></script>
+    <script src="/static/rest_framework/js/bootstrap.min.js"></script>
+    <script src="/static/rest_framework/js/prettify-min.js"></script>
+  </body>
+  
+</html>
