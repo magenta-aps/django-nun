@@ -13,6 +13,7 @@ class NurseRegistration(models.Model):
     class Meta:
         verbose_name = _(u"sygeplejerskeautorisation")
         verbose_name_plural = _(u"sygeplejerskeautorisationer")
+        ordering = ['id']
 
     search_fields = ('birthday', 'date', 'name', 'number')
     filter_fields = {
