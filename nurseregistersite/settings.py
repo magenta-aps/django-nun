@@ -45,13 +45,6 @@ INSTALLED_APPS = [
     'django_extensions',
 ]
 
-# Add apps that only run under windows
-if os.name == 'nt':
-    INSTALLED_APPS += (
-        'django_windows_tools',
-    )
-    
-
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
